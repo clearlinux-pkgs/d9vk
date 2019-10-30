@@ -1,0 +1,4 @@
+mkdir -p %{buildroot}/usr/lib64/wine
+install build.w64/src/d3d9/d3d9.dll.so %{buildroot}/usr/lib64/wine/
+mkdir -p %{buildroot}/usr/lib32/wine
+install build.w32/src/d3d9/d3d9.dll.so %{buildroot}/usr/lib32/wine/
